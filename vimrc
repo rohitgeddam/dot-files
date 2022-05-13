@@ -20,6 +20,8 @@ set pythonthreedll=C:\Users\Rohit\AppData\Local\Programs\Python\Python38\python3
 set pythonthreehome=C:\Users\Rohit\AppData\Local\Programs\Python\Python38
 " **********************************************************************
 
+nnoremap <leader>cd :cd %:p:h<CR>
+
 set colorcolumn=80
 highlight ColorColumn ctermbg=0
 
